@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" spacing="12.0" prefWidth="340.0" prefHeight="360.0"
+      xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.mycompany.bmicalculator.FXMLController">
+    <padding>
+        <Insets top="20.0" right="25.0" bottom="20.0" left="25.0" />
+    </padding>
+    <children>
+        <Label text="Kalkulator BMI">
+            <style>-fx-font-size: 22px; -fx-font-weight: bold;</style>
+        </Label>
+
+        <Label text="Berat badan (kg)" />
+        <TextField fx:id="txtBerat" promptText="contoh: 60" />
+
+        <Label text="Tinggi badan (cm)" />
+        <TextField fx:id="txtTinggi" promptText="contoh: 170" />
+
+        <Button fx:id="btnHitung" text="Hitung BMI" onAction="#hitungBMI" />
+
+        <Label fx:id="lblHasil" text="BMI: -">
+            <style>-fx-font-size: 18px; -fx-font-weight: bold;</style>
+        </Label>
+        <Label fx:id="lblKategori" text="Kategori: -" />
+    </children>
+</VBox>
