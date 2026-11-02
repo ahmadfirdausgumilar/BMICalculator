@@ -16,7 +16,16 @@ lengkap dengan kategori hasilnya.
 
 
 ##Tampilan Awal 
-<img width="989" height="701" alt="image" src="https://github.com/user-attachments/assets/6a73c085-4c35-45bc-b141-54fecdea4b01" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/ce6e1aae-88ca-4e05-b174-97451331e452" />
+
+
+Tampilan Hasil
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/631843a1-aa2f-41d7-8730-8ccf14e7710d" />
+
+Tampilabn Gagal
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/34e5ef72-43ae-4052-be61-cb8f49ae0571" />
+
+
 
 
 
